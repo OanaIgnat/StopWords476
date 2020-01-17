@@ -3,10 +3,10 @@
 One common pre-processing step when analyzing text data is the removal of stop words.  Stop words are those words that appear very commonly across the documents,therefore loosing their representativeness (eg. the, a, and). A typical way to find the stopwords is to measure the number of documents a term appears in and filter the top-k words or those that appear in more than x% of documents. 
 In this task, we define the stop words as **the words that appear in ≥ 50% of the documents.**
 
-###Q1. Stop word count
+### Q1. Stop word count
 Write a MapReduce program which outputs the stop words in these tweets, and how many times they appear in the documents. Treat each tweet as a separate document. 
 We recommend that you start by modifying the MapReduce program ”WordCount”. 
-###Q2.   Modifications
+### Q2.   Modifications
 1.  Write a MapReduce program which outputs the stop words that appear an even number of times.
 2.  Write a MapReduce program which outputs the two most frequent stop words
 
